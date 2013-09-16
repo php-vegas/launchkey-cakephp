@@ -64,7 +64,7 @@ plugins/LaunchKey/Config/config.php
 ToDo
 ====
 
- * Setup TravisCI for Project [http://mark-story.com/posts/view/testing-cakephp-plugins-with-travis-ci](Sample Information for Travis CI setup)
+ * Setup TravisCI for Project [https://github.com/FriendsOfCake/travis](Sample Information for Travis CI setup)
 
 License
 =======
