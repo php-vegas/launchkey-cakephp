@@ -65,6 +65,7 @@ ToDo
 ====
 
  * Setup TravisCI for Project [https://github.com/FriendsOfCake/travis](Sample Information for Travis CI setup)
+ * Get LaunchKey Integration Working [https://launchkey.com/docs/](LaunchKey Docs)
 
 License
 =======
