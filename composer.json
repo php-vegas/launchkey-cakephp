@@ -2,6 +2,9 @@
     "name": "lvphp/launchkey-cake",
     "description": "LaunchKey Plugin for CakePHP",
     "license": "MIT",
+    "config": {
+        "vendor-dir": "Vendor"
+    },
     "authors": [
         {
             "name": "Justin Yost",
@@ -9,6 +12,6 @@
         }
     ],
     "require": {
-
+        "launchkey/launchkey": "*@dev"
     }
 }
