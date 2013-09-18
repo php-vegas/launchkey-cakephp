@@ -52,20 +52,24 @@ app/Config/bootstrap.php
   CakePlugin::load("LaunchKey");
 ```
 
-plugins/LaunchKey/Config/config.php
+app/Controllers/AppController
 -----------------------------------
 ```php
-  Configure::write("LaunchKey.AppId", 1234567890);
-  Configure::write("LaunchKey.SecretKey", "MySecretKey");
-  Configure::write("LaunchKey.PrivateKey", "/my/private/keyfile.key");
-  Configure::write("LaunchKey.polling", true); // True for private IP address or development
+  public $components = array(
+    'LaunchKey' => array(
+      'appid' => '123456789',
+      'secretKey' => 'asdfasdfasdf',
+      'privateKey' => '/my/private/key.key',
+      'polling' => TRUE, // True for private IP address or development
+    )
+  );
 ```
 
 ToDo
 ====
 
- * Setup TravisCI for Project [https://github.com/FriendsOfCake/travis](Sample Information for Travis CI setup)
- * Get LaunchKey Integration Working [https://launchkey.com/docs/](LaunchKey Docs)
+ * Setup TravisCI for Project [Travis CI Stuff](https://github.com/FriendsOfCake/travis)
+ * Get LaunchKey Integration Working [LaunchKey Docs](https://launchkey.com/docs/)
 
 License
 =======
