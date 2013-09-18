@@ -1,0 +1,14 @@
+{
+    "name": "lvphp/launchkey-cake",
+    "description": "LaunchKey Plugin for CakePHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin Yost",
+            "email": "justin.yost@yostivanich.com"
+        }
+    ],
+    "require": {
+
+    }
+}
