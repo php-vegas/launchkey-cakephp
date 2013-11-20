@@ -59,8 +59,8 @@ class LaunchKeySomethingComponent extends Component {
 		return $this->_LaunchKey->poll_request($authRequestId);
 	}
 
-	public function is_authorized($package) {
-		return $this->_LaunchKey->is_authorized($package);
+	public function is_authorized($package, $auth_request='') {
+		return $this->_LaunchKey->is_authorized($package, $auth_request);
 	}
 
   public function authenticate(CakeRequest $request, CakeResponse $response) {
