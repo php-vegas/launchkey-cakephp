@@ -1,6 +1,8 @@
 {
     "name": "lvphp/launchkey-cake",
     "description": "LaunchKey Plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp"],
     "license": "MIT",
     "config": {
         "vendor-dir": "Vendor"
@@ -8,10 +10,16 @@
     "authors": [
         {
             "name": "Justin Yost",
+            "homepage": "https://github.com/jtyost2",
             "email": "justin.yost@yostivanich.com"
         }
     ],
     "require": {
-        "launchkey/launchkey": "*@dev"
+        "launchkey/launchkey": "*@dev",
+        "php": ">=5.3.0",
+        "composer/installers": "*"
+    },
+    "extra": {
+        "installer-name": "LaunchKey"
     }
 }
